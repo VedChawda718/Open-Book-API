@@ -154,7 +154,10 @@ hr{
     bottom: 100px;
 }
 @media screen and   (max-width: 1254px){
-     
+    .header::before{
+        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url(../../public/images/bg2.avif);
+        background-size: contain;
+        }
     .row1 h1{
         font-size: 18px;
         text-align: center;
@@ -218,7 +221,7 @@ hr{
         margin: px;
     }
     .header::before{
-    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.6)),url(../../public/images/bg2.avif);
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(../../public/images/bg2.avif);
 
     background-size: cover;
     clip-path: none;

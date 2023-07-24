@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './style.css';
 import BookCard from './BookCard';
 import SearchBar from './SearchBar';
-
+import bg1 from '../Components/bg1.gif'
 const Main = () => {
   const [booksData, setBooksData] = useState([]);
 
@@ -21,8 +21,7 @@ const Main = () => {
             <div className="search">
             <SearchBar onSearch={handleSearch} />
             </div>
-      
-            <img src="./images/bg1.gif" alt="" />
+            <img src={bg1} alt=""/>
         </div>
     </div>
         <div className='card-container'>
