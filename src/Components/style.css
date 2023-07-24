@@ -154,7 +154,10 @@ hr{
     bottom: 100px;
 }
 @media screen and   (max-width: 1254px){
- 
+    .header::before{
+        background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url(../../public/images/bg2.avif);
+        background-size: contain;
+        }
     .row1 h1{
         font-size: 18px;
         text-align: center;
@@ -164,7 +167,6 @@ hr{
     }
 
     .row2 img{
-
         width: 200px;   
         height: 200px;
         border-radius: 90px 5px;
